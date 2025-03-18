@@ -1,0 +1,122 @@
+/**
+ * Bricoware Stackable Shipping - Admin CSS
+ */
+
+/* Stili per la pagina di gestione corrieri */
+.bricoware-rates-editor {
+    margin-top: 20px;
+}
+
+.bricoware-carrier-rates {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.bricoware-carrier-rates h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bricoware-rates-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bricoware-rates-table th {
+    text-align: left;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.bricoware-rates-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.bricoware-rates-table input[type="number"] {
+    width: 100px;
+}
+
+/* Stili per le tabs dei prodotti */
+#stackable_product_data .stackable-options {
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* Stili per la pagina di checkout */
+.bricoware-shipping-info {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bricoware-shipping-info h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Stili per il form di modifica corriere */
+#carrier-edit-form .postbox {
+    margin-bottom: 20px;
+}
+
+#carrier-edit-form .actions {
+    width: 100px;
+    text-align: center;
+}
+
+#carrier-edit-form #shipping-rates-table input {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+}
+
+/* Migliora il layout della dashboard */
+#dashboard-widgets .postbox-container {
+    width: 49.5%;
+    margin-right: 1%;
+}
+
+#dashboard-widgets #postbox-container-2 {
+    margin-right: 0;
+}
+
+/* Stili per i messaggi di errore nelle tariffe */
+.rate-row input.error {
+    border-color: #dc3232;
+}
+
+@media only screen and (max-width: 850px) {
+    #dashboard-widgets .postbox-container {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* Stili per la colonna impilabile nella lista prodotti */
+.column-stackable {
+    width: 120px;
+}
+
+/* Icone colorate */
+.column-stackable .dashicons-yes {
+    color: #46b450;
+}
+
+.column-stackable .dashicons-no {
+    color: #ddd;
+}
+
+/* Stili per il toggle degli options panels nei prodotti */
+#woocommerce-product-data .panel-wrap .stackable_options {
+    padding: 0 12px;
+}
